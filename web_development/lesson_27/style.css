@@ -1,0 +1,27 @@
+.sample1 {
+    list-style-type: none;
+}
+
+.sample {
+    text-decoration: none;
+    color: inherit;
+}
+
+@keyframes aksh {
+    50% {
+        transform: scale(1.5)
+    }
+     50% {
+        transform: scale( 1.4)
+    }
+
+}
+
+.sample1>li:hover {
+    animation-name: aksh;
+    animation-duration: 3s;
+}
+
+.sample:hover{
+    color: rgb(241, 218, 9);
+}
