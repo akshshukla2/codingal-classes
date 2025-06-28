@@ -11,11 +11,6 @@
     align-items: normal;
 }
 
-.pos2{
-    display : flex;
-    justify-content: left;
-    align-items: normal;
-}
 .bank {
     background-color: white;
     border: 1px solid grey;
@@ -56,31 +51,4 @@
 
 .text {
     font-size: 30px;
-}
-
-
-.bank2 {
-    background-color: white;
-    border: 1px solid grey;
-    box-shadow: 4px 2px 40px grey;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.b-top2 {
-    height: 140px;
-}
-
-.display {
-    padding: 40px 60px 40px 60px;
-    font-size: 51px;
-    font-weight: 600;
-    color: grey;
-}
-
-.b-bottom2 {
-    display: grid;
-    gap: 10px 10px;
-    grid-template-columns: auto auto auto auto;
-
 }
