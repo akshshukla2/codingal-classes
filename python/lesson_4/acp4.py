@@ -4,8 +4,8 @@ num2 = num
 
 while num2 > 0:
     digit = num2 % 10
-    sum += digit ** 3  # Cube the digit, not the full number
-    num2 //= 10  # Use integer division
+    sum += digit ** 3 
+    num2 //= 10  
 
 if num == sum:
     print(num, "is an Armstrong number")

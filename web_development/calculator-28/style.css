@@ -1,0 +1,61 @@
+.container {
+    padding: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.calc {
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 4px 2px 40px grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.c-top {
+    height: 140px;
+}
+
+.display {
+    padding: 40px 60px 40px 60px;
+    font-size: 51px;
+    font-weight: 600;
+    color: grey;
+}
+
+.c-bottom {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.btn {
+    padding: 46px;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: rgb(202, 198, 198);
+}
+
+.blue {
+    background-color: rgb(15, 148, 189);
+}
+
+.org {
+    background-color: rgb(206, 126, 34);
+}
+
+.purp {
+    background-color: rgb(113, 11, 145);
+}
+
+.grn {
+    background-color: rgb(20, 121, 7);
+}
