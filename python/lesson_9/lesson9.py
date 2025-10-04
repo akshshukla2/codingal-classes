@@ -11,12 +11,12 @@ class Animal:
     
 
 a1= Animal('Akshita', 19)
-a2= Animal('Pranav', 19)
+a2= Animal('Prazzy', 19)
 print(a1.name)
 print(a1.age)
 a1.intro()
 a2.intro()
 
-a1.greet('Pranav')
+a1.greet('Prazzy')
 a2.greet('Akshita')
       
